@@ -1,0 +1,8 @@
+setup.py
+heart_failure_simple_dnn_trainer.egg-info/PKG-INFO
+heart_failure_simple_dnn_trainer.egg-info/SOURCES.txt
+heart_failure_simple_dnn_trainer.egg-info/dependency_links.txt
+heart_failure_simple_dnn_trainer.egg-info/requires.txt
+heart_failure_simple_dnn_trainer.egg-info/top_level.txt
+trainer/__init__.py
+trainer/train.py

@@ -1,0 +1,5 @@
+{
+  "instances": [
+    {"Sex.F": "1", "Sex.M": "0", "ChestPainType.ASY": "0", "ChestPainType.ATA": "1", "ChestPainType.NAP": "0", "ChestPainType.TA": "0", "FastingBS.0": "1", "FastingBS.1": "0", "RestingECG.LVH": "0", "RestingECG.Normal": "1", "RestingECG.ST": "0", "ExerciseAngina.N": "1", "ExerciseAngina.Y": "0", "ST_Slope.Down": "0", "ST_Slope.Flat": "0", "ST_Slope.Up": "1", "Age": "0.7142857143", "RestingBP": "0.7", "Cholesterol": "0.3233830846", "MaxHR": "0.838028169", "Oldpeak": "0.2954545455", "binned_Oldpeak": "5"}, 
+      ]
+}

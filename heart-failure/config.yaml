@@ -1,0 +1,14 @@
+workerPoolSpecs:
+  machineSpec:
+    machineType: n1-standard-4
+  replicaCount: 1
+  pythonPackageSpec:
+    executorImageUri: us-docker.pkg.dev/vertex-ai/training/tf-cpu.2-8:latest
+    packageUris: gs://qwiklabs-asl-02-99f66d8df225/heart_failure/heart_failure_simple_dnn_trainer-0.1.tar.gz
+    pythonModule: trainer.train
+    args:
+    - --dataset_uri=gs://qwiklabs-asl-02-99f66d8df225/heart_failure/scaled-engineered-heart.csv
+    - --output_uri=gs://qwiklabs-asl-02-99f66d8df225/heart_failure/
+    - --epochs=200
+    - --batch_size=100
+    - --lr=.001
